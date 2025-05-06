@@ -12,5 +12,12 @@ namespace Evedri_Group
         public string LastName { get; set; }
         public int Age { get; private set; }
 
+        public Person(string firstName, string lastName, int Age)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Age = Age;
+        }
+
     }
-}
+ }
